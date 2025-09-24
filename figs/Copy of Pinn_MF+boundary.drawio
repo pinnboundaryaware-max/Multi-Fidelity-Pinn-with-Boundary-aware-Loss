@@ -1,0 +1,138 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36" version="28.2.4">
+  <diagram name="Page-1" id="qONYkJ3LwttMuLWzBCdt">
+    <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="1Jn21h6Guawh2NXyBbh3-20" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=none;strokeColor=#09555B;fontColor=default;" edge="1" parent="1" source="1Jn21h6Guawh2NXyBbh3-2" target="1Jn21h6Guawh2NXyBbh3-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="1Jn21h6Guawh2NXyBbh3-2" value="&lt;b&gt;Surface features (&lt;code data-end=&quot;223&quot; data-start=&quot;183&quot;&gt;surf_x, surf_y, vx, vy, elv, dhdt, smb&lt;/code&gt;)&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#FAD9D5;strokeColor=#D0CEE2;fontColor=#1A1A1A;" vertex="1" parent="1">
+          <mxGeometry x="910" y="155" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="1Jn21h6Guawh2NXyBbh3-3" value="PINN&lt;div&gt;Multi-fidelity&lt;/div&gt;&lt;div&gt;+&lt;/div&gt;&lt;div&gt;Boundary-aware&lt;/div&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;labelBackgroundColor=none;fillColor=#FAD9D5;strokeColor=#D0CEE2;fontColor=#1A1A1A;" vertex="1" parent="1">
+          <mxGeometry x="1140" y="130" width="110" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="1Jn21h6Guawh2NXyBbh3-4" value="&lt;b&gt;Predicted Bed Topography&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#FAD9D5;strokeColor=#D0CEE2;fontColor=#1A1A1A;" vertex="1" parent="1">
+          <mxGeometry x="1600" y="159" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="1Jn21h6Guawh2NXyBbh3-5" value="Shallow Ice Approximation (SIA)" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#FAD9D5;strokeColor=#D0CEE2;fontColor=#1A1A1A;" vertex="1" parent="1">
+          <mxGeometry x="1360" y="105" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="1Jn21h6Guawh2NXyBbh3-7" value="Reduced Stokes residual" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#FAD9D5;strokeColor=#D0CEE2;fontColor=#1A1A1A;" vertex="1" parent="1">
+          <mxGeometry x="1360" y="215" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="1Jn21h6Guawh2NXyBbh3-34" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=none;strokeColor=#09555B;fontColor=default;" edge="1" parent="1" source="1Jn21h6Guawh2NXyBbh3-8" target="1Jn21h6Guawh2NXyBbh3-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="1Jn21h6Guawh2NXyBbh3-36" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=none;strokeColor=#09555B;fontColor=default;" edge="1" parent="1" source="1Jn21h6Guawh2NXyBbh3-8" target="1Jn21h6Guawh2NXyBbh3-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="1Jn21h6Guawh2NXyBbh3-8" value="&lt;br&gt;&lt;b&gt;Observed dataset (X, y)&lt;/b&gt;&lt;div&gt;(Surface features X, radar bed labels y)&lt;br&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#FAD9D5;strokeColor=#D0CEE2;fontColor=#1A1A1A;" vertex="1" parent="1">
+          <mxGeometry x="1186" y="431" width="350" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="1Jn21h6Guawh2NXyBbh3-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=none;strokeColor=#09555B;fontColor=default;" edge="1" parent="1" source="1Jn21h6Guawh2NXyBbh3-9" target="1Jn21h6Guawh2NXyBbh3-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="1Jn21h6Guawh2NXyBbh3-9" value="&lt;b&gt;Supervised (data-fit) loss: MSE(ŷ, y)&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#FAD9D5;strokeColor=#D0CEE2;fontColor=#1A1A1A;" vertex="1" parent="1">
+          <mxGeometry x="1185" y="631" width="350" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="1Jn21h6Guawh2NXyBbh3-56" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=none;strokeColor=#09555B;fontColor=default;" edge="1" parent="1" source="1Jn21h6Guawh2NXyBbh3-10" target="1Jn21h6Guawh2NXyBbh3-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="1Jn21h6Guawh2NXyBbh3-57" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;labelBackgroundColor=none;strokeColor=#09555B;fontColor=default;" edge="1" parent="1" source="1Jn21h6Guawh2NXyBbh3-10" target="1Jn21h6Guawh2NXyBbh3-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="1Jn21h6Guawh2NXyBbh3-10" value="&lt;strong data-end=&quot;893&quot; data-start=&quot;846&quot;&gt;Boundary collocation (edges Xb, normals Nb)&lt;/strong&gt;&lt;br&gt;&lt;em data-end=&quot;939&quot; data-start=&quot;898&quot;&gt;(margin points for boundary conditions)&lt;/em&gt;" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=middle;labelBackgroundColor=none;fillColor=#FAD9D5;strokeColor=#D0CEE2;fontColor=#1A1A1A;" vertex="1" parent="1">
+          <mxGeometry x="945" y="721" width="350" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="1Jn21h6Guawh2NXyBbh3-48" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=none;strokeColor=#09555B;fontColor=default;" edge="1" parent="1" source="1Jn21h6Guawh2NXyBbh3-11">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1635" y="851" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1635" y="821" />
+              <mxPoint x="1635" y="821" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1Jn21h6Guawh2NXyBbh3-11" value="&lt;br&gt;&lt;strong data-end=&quot;788&quot; data-start=&quot;744&quot;&gt;Physics collocation (interior points Xc)&lt;/strong&gt;&lt;br&gt;&lt;em data-end=&quot;840&quot; data-start=&quot;793&quot;&gt;(random points in domain for PDE enforcement)&lt;/em&gt;&lt;div&gt;&lt;br/&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#FAD9D5;strokeColor=#D0CEE2;fontColor=#1A1A1A;" vertex="1" parent="1">
+          <mxGeometry x="1445" y="721" width="350" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="1Jn21h6Guawh2NXyBbh3-12" value="&lt;br&gt;&lt;b&gt;Boundary weak-form loss, traction/flux&lt;/b&gt;&lt;div&gt;(Neumann + selective Dirichlet)&lt;br&gt;(optional Dirichlet via NN from dataset)&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#FAD9D5;strokeColor=#D0CEE2;fontColor=#1A1A1A;" vertex="1" parent="1">
+          <mxGeometry x="945" y="851" width="350" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="1Jn21h6Guawh2NXyBbh3-16" value="&lt;br&gt;&lt;b&gt;Total loss = data + physics + boundary&lt;/b&gt;&lt;div&gt;Backpropagation + optimizer step&lt;br&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#FAD9D5;strokeColor=#D0CEE2;fontColor=#1A1A1A;" vertex="1" parent="1">
+          <mxGeometry x="1185" y="951" width="350" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="1Jn21h6Guawh2NXyBbh3-17" value="&lt;b style=&quot;&quot; id=&quot;docs-internal-guid-a3362013-7fff-34dc-56f6-82727725d216&quot;&gt;&lt;span style=&quot;font-size: 11pt; font-family: Arial, sans-serif; color: rgb(0, 0, 0); background-color: transparent; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;&quot;&gt;Multi-fidelity residual coupling of the shallow-ice approximation (SIA) and reduced-Stokes equations and (ii) a boundary-aware weak-form loss that flexibly enforces traction/flux (Neumann) and optional Dirichlet conditions. Figure 1 provides a schematic of the overall pipeline.&lt;/span&gt;&lt;/b&gt;" style="text;whiteSpace=wrap;html=1;labelBackgroundColor=none;fontColor=#1A1A1A;" vertex="1" parent="1">
+          <mxGeometry x="995" y="1031" width="850" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="1Jn21h6Guawh2NXyBbh3-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;labelBackgroundColor=none;strokeColor=#09555B;fontColor=default;" edge="1" parent="1" source="1Jn21h6Guawh2NXyBbh3-4" target="1Jn21h6Guawh2NXyBbh3-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="1Jn21h6Guawh2NXyBbh3-37" value="Physics Informed Neural Network&amp;nbsp;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;(&lt;b&gt;PINN&lt;/b&gt;) Model&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#FAD9D5;strokeColor=#D0CEE2;fontColor=#1A1A1A;" vertex="1" parent="1">
+          <mxGeometry x="1297.5" y="531" width="135" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="1Jn21h6Guawh2NXyBbh3-44" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.529;entryY=-0.033;entryDx=0;entryDy=0;entryPerimeter=0;labelBackgroundColor=none;strokeColor=#09555B;fontColor=default;" edge="1" parent="1" source="1Jn21h6Guawh2NXyBbh3-37" target="1Jn21h6Guawh2NXyBbh3-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="1Jn21h6Guawh2NXyBbh3-45" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;labelBackgroundColor=none;strokeColor=#09555B;fontColor=default;" edge="1" parent="1" source="1Jn21h6Guawh2NXyBbh3-37" target="1Jn21h6Guawh2NXyBbh3-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="1Jn21h6Guawh2NXyBbh3-55" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;labelBackgroundColor=none;strokeColor=#09555B;fontColor=default;" edge="1" parent="1" source="1Jn21h6Guawh2NXyBbh3-12">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1125" y="911" as="sourcePoint" />
+            <mxPoint x="1185" y="981" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1120" y="981" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1Jn21h6Guawh2NXyBbh3-61" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;labelBackgroundColor=none;strokeColor=#09555B;fontColor=default;" edge="1" parent="1" source="1Jn21h6Guawh2NXyBbh3-59" target="1Jn21h6Guawh2NXyBbh3-16">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1630" y="981" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1Jn21h6Guawh2NXyBbh3-59" value="&lt;b&gt;Partial Differential Equation (PDE) Residual loss&lt;/b&gt;&lt;div&gt;SIA + Stokes&amp;nbsp;(optional Kendall uncertainty weighting)&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#FAD9D5;strokeColor=#D0CEE2;fontColor=#1A1A1A;" vertex="1" parent="1">
+          <mxGeometry x="1455" y="851" width="350" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="1Jn21h6Guawh2NXyBbh3-63" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;labelBackgroundColor=none;strokeColor=#09555B;fontColor=default;" edge="1" parent="1" target="1Jn21h6Guawh2NXyBbh3-7">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1250" y="190" as="sourcePoint" />
+            <mxPoint x="1300" y="140" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1Jn21h6Guawh2NXyBbh3-64" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;labelBackgroundColor=none;strokeColor=#09555B;fontColor=default;" edge="1" parent="1" target="1Jn21h6Guawh2NXyBbh3-5">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1250" y="190" as="sourcePoint" />
+            <mxPoint x="1300" y="140" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1Jn21h6Guawh2NXyBbh3-66" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.75;entryDx=0;entryDy=0;labelBackgroundColor=none;strokeColor=#09555B;fontColor=default;" edge="1" parent="1" target="1Jn21h6Guawh2NXyBbh3-4">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1480" y="250" as="sourcePoint" />
+            <mxPoint x="1530" y="200" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1Jn21h6Guawh2NXyBbh3-68" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;labelBackgroundColor=none;strokeColor=#09555B;fontColor=default;" edge="1" parent="1" target="1Jn21h6Guawh2NXyBbh3-4">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1480" y="140" as="sourcePoint" />
+            <mxPoint x="1530" y="90" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1Jn21h6Guawh2NXyBbh3-70" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;labelBackgroundColor=none;strokeColor=#09555B;fontColor=default;" edge="1" parent="1" target="1Jn21h6Guawh2NXyBbh3-4">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1250" y="190" as="sourcePoint" />
+            <mxPoint x="1300" y="140" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1Jn21h6Guawh2NXyBbh3-72" value="Training flow: Multi-fidelity + Boundary-aware PINN" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1;labelBackgroundColor=none;fontColor=#1A1A1A;" vertex="1" parent="1">
+          <mxGeometry x="1275" y="300" width="330" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="1Jn21h6Guawh2NXyBbh3-73" value="Multi-fidelity + Boundary-aware PINN" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#1A1A1A;fontStyle=1;labelBackgroundColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1060" y="535" width="220" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
