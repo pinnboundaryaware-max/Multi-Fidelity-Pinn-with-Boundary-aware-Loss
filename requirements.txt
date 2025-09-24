@@ -1,0 +1,12 @@
+# Core
+numpy>=1.24
+pandas>=2.0
+matplotlib>=3.7
+
+# Learning
+torch>=2.2
+scikit-learn>=1.3
+
+# Optional
+# scipy>=1.10
+# tqdm>=4.65 
